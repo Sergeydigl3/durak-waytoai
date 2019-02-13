@@ -91,9 +91,10 @@ class Game(object):
 
 
 if __name__ == '__main__':
-    gg = Game(3, 3)
     status = 0
-    combinations = []
+    all_combinations = []
+    combo = []
+    main_game = Game(3, 3)
     while status not in [1, 2]:
 
         gg.action(1, 0, 1)
